@@ -2,16 +2,16 @@ import random
 
 class FruitQuiz:
 
-	# Create a constructor
+	
 	def __init__(self):
 		
-		# Create a dictionary of fruits as keys and color as value
+		
 		self.fruits={'apple':'red',
 					'orange':'orange',
 					'watermelon':'green',
 					'banana':'yellow'}
 
-	# Function for the quiz, here a fruit will be chosen randomly	
+	
 	def quiz(self):
 		while (True):
 			
